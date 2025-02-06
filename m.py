@@ -380,12 +380,23 @@ def welcome_start(message):
 @bot.message_handler(commands=['rules'])
 def welcome_rules(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name} Please Follow These Rules ⚠️:
+    response = f'''{user_name} ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜᴇsᴇs ʀᴜʟᴇs
 
-1. Dont Run Too Many Attacks !! Cause A Ban From Bot
-2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/venomcha7 OTHERWISE NOT WORK
-4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
+1. ＤＯＮＴ ＲＵＮ ＴＯ ＭＡＮＹ ＡＴＴＣＫＳ 
+
+2.ＤＯＮＴ ＲＵＮ 2 ＡＴＴＡＣＫ ＡＴ ＳＡＭＥ. ＴＩＭＥ  ＯＴＨＥＲ ＹＯＵ ＧＯＴ ＢＡＮ ＦＲＯＭ ＢＯＴ
+
+3. ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 
+क्यो पड़े हो चक्कर मे कोई नही है टक्कर मे 
+
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
+4. BUY OWN BOT & ACCES ANYONE 
+DM @TRUSTVIP_MOD0
+
+
+5.  𝖢𝖧𝖤𝖢𝖪 𝖸𝖮𝖴 𝖩𝖮𝖨𝖭 𝖮𝖳𝖧𝖤𝖱𝖶𝖨𝖲𝖤 𝖡𝖮𝖳 𝖭𝖮𝖳 𝖶𝖱𝖮𝖪𝖨𝖭𝖦
+https://t.me/+OcyU6mJB3ys5NmY1 !!'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['prize'])

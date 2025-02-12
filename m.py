@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @TRUSTVIP_MOD0."
+        response = "You have not purchased yet purchase now from:- @TRUSTVIP_MOD."
 
     bot.reply_to(message, response)
 
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "You have not purchased yet purchase now from:- @TRUSTVIP_MOD0 🙇."
+        response = "You have not purchased yet purchase now from:- @TRUSTVIP_MOD 🙇."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "You have not purchased yet purchase now from :- @TRUSTVIP_MOD0 ❄."
+        response = "You have not purchased yet purchase now from :- @TRUSTVIP_MOD ❄."
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @vTRUSTVIP_MOD0 🙇."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @vTRUSTVIP_MOD 🙇."
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @TRUSTVIP_MOD0 ❄."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @TRUSTVIP_MOD ❄."
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @TRUSTVIP_MOD0 ❄."
+        response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @TRUSTVIP_MOD ❄."
         bot.reply_to(message, response)
 
 
@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @TRUSTVIP_MOD0"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @TRUSTVIP_MOD"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("⚠️ 𝗖𝗛𝗟 𝗕𝗢𝗢𝗦𝗗𝗜𝗞𝗘 𝗙𝗜𝗥𝗦𝗧 𝗨𝗦𝗘 𝗖𝗢𝗡𝗗𝗢𝗠  𝗕𝗨𝗬 @TRUSTVIP_MOD0.")
+        response = ("⚠️ 𝗖𝗛𝗟 𝗕𝗢𝗢𝗦𝗗𝗜𝗞𝗘 𝗙𝗜𝗥𝗦𝗧 𝗨𝗦𝗘 𝗖𝗢𝗡𝗗𝗢𝗠  𝗕𝗨𝗬 @TRUSTVIP_MOD.")
 
     bot.reply_to(message, response)
 
@@ -374,7 +374,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🦚𝙏𝙍𝙔 𝙏𝙃𝙄𝙎 𝘾𝙊𝙊𝙈𝙈𝘼𝙉𝘿: /help 
-🥶𝘽𝙐𝙔 :- @TRUSTVIP_MOD0'''
+🥶𝘽𝙐𝙔 :- @TRUSTVIP_MOD'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -382,9 +382,9 @@ def welcome_rules(message):
     user_name = message.from_user.first_name
     response = f'''{user_name} ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜᴇsᴇs ʀᴜʟᴇs
 
-1. ＤＯＮＴ ＲＵＮ ＴＯ ＭＡＮＹ ＡＴＴＣＫＳ 
+1. DONT RUN MANAY ATAACKS
 
-2.ＤＯＮＴ ＲＵＮ 2 ＡＴＴＡＣＫ ＡＴ ＳＡＭＥ. ＴＩＭＥ  ＯＴＨＥＲ ＹＯＵ ＧＯＴ ＢＡＮ ＦＲＯＭ ＢＯＴ
+2. DONT RUN TO MANY AATTCK AT SAME TIME OTHEREISE YOU BANMED THIS BOT
 
 3. ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ 
 क्यो पड़े हो चक्कर मे कोई नही है टक्कर मे 
@@ -392,11 +392,11 @@ def welcome_rules(message):
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
 4. BUY OWN BOT & ACCES ANYONE 
-DM @TRUSTVIP_MOD0
+DM @TRUSTVIP_MOD
 
 
 5.  𝖢𝖧𝖤𝖢𝖪 𝖸𝖮𝖴 𝖩𝖮𝖨𝖭 𝖮𝖳𝖧𝖤𝖱𝖶𝖨𝖲𝖤 𝖡𝖮𝖳 𝖭𝖮𝖳 𝖶𝖱𝖮𝖪𝖨𝖭𝖦
-https://t.me/+OcyU6mJB3ys5NmY1 !!'''
+https://t.me/+ZS8DrcY-KfQzNzY1 !!'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['prize'])
@@ -421,7 +421,7 @@ def welcome_plan(message):
 
 ♨️ YOUR OWN DDOS BOT 1.3k RS DISCOUNT AVAILABLE 
 
-DM :- @TRUSTVIP_MOD0
+DM :- @TRUSTVIP_MOD
 
 
 '''

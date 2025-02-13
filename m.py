@@ -402,29 +402,28 @@ https://t.me/+ZS8DrcY-KfQzNzY1 !!'''
 @bot.message_handler(commands=['prize'])
 def welcome_plan(message):
     user_name = message.from_user.first_name
-    response = f'''{user_name}, 𝐖𝐞 𝐇𝐚𝐯𝐞 𝐎𝐧𝐥𝐲 𝟏 𝐏𝐥𝐚𝐧 𝐀𝐧𝐝 𝐓𝐡𝐚𝐭 𝐈𝐬 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐓𝐡𝐞𝐧 𝐀𝐧𝐲 𝐎𝐭𝐡𝐞𝐫 𝐃𝐃𝐨𝐒 𝐓𝐡𝐚𝐭 𝐈𝐬 
+    response = f'''{user_name},ᴡᴇ ʜᴀᴠᴇ ᴏɴʟʏ ᴛʜɪs ᴘʟᴀɴ ᴀɴᴅ ᴛʜᴀᴛ ɪs ᴘᴏᴡᴇғᴜᴋʟ ᴛʜᴇɴ ᴀɴʏ ᴏᴛʜᴇʀ ᴅᴅᴏs ᴛʜᴀᴛ
+
+🇮🇳 𝗖𝗛𝗘𝗔𝗣 𝗣𝗥𝗜𝗖𝗘 𝗙𝗢𝗥 𝗬𝗢𝗨
+
+☠️ 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟 𝗗𝗗𝗢𝗦
+
+⭕️ 40+ KILLS MINIMU
+
+⭕️ DDOS BOT 24×7 ONLINE
 
 
+🚀 1 𝗗𝗔𝗬 90 RS
 
-💸 𝐏𝐫𝐢𝐜𝐞 𝐋𝐢𝐬𝐭 :
+🚀 3 𝗗𝗔𝗬𝗦 200 RS
 
-☠️**BGMI POWERFUL  DDOS**
+🚀 1 𝗪𝗘𝗘𝗞  300 RS
 
-⭕️ **40+ KILLS MINIMUM**
+🚀 1 𝗠𝗢𝗡𝗧𝗛 650 R
 
-⭕️ **DDOS BOT 24×7 ONLINE** 
+🚀 𝗙𝗨𝗟𝗟 𝗦𝗘𝗦𝗢𝗡 800 RS
 
-♨️**1 DAY 90 RS**
-
-♨️**3 DAYS 200 RS**
-
-♨️**1 WEEK 300 RS**
-
-♨️**1 MONTH 650 RS**
-
-♨️**FULL SEASON 800 RS**
-
-♨️ **YOUR OWN DDOS BOT 1.3k RS DISCOUNT AVAILABLE** 
+  🗣️YOUR OWN DDOS BOT 1.3k RS DISCOUNT AVAILABLE🗣️
 
 DM :- @TRUSTVIP_MOD
 

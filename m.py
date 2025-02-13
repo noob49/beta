@@ -407,22 +407,26 @@ def welcome_plan(message):
 
 
 💸 𝐏𝐫𝐢𝐜𝐞 𝐋𝐢𝐬𝐭 :
-☠️BGMI POWERFUL  DDOS 
 
-⭕️ 40+ KILLS MINIMUM 
+☠️**BGMI POWERFUL  DDOS**
 
-⭕️ DDOS BOT 24×7 ONLINE 
+⭕️ **40+ KILLS MINIMUM**
 
-♨️1 WEEK 350 RS
+⭕️ **DDOS BOT 24×7 ONLINE** 
 
-♨️1 MONTH 600 RS
+♨️**1 DAY 90 RS**
 
-♨️FULL SEASON 800 RS
+♨️**3 DAYS 200 RS**
 
-♨️ YOUR OWN DDOS BOT 1.3k RS DISCOUNT AVAILABLE 
+♨️**1 WEEK 300 RS**
+
+♨️**1 MONTH 650 RS**
+
+♨️**FULL SEASON 800 RS**
+
+♨️ **YOUR OWN DDOS BOT 1.3k RS DISCOUNT AVAILABLE** 
 
 DM :- @TRUSTVIP_MOD
-
 
 '''
     bot.reply_to(message, response)

